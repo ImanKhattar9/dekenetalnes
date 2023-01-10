@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="14dp"
+        android:background="@color/yellow"
+        android:fontFamily="serif"
+        android:text="Feel free to contact us any time"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="272dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/text5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="102dp"
+        android:text="phone number:76575563"
+        android:textSize="23dp"
+        tools:ignore="ExtraText" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="272dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="100dp"
+        android:text="Instagram:Dekentetalnes"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="272dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="102dp"
+        android:text="Facebook: Dekentetalnes"
+        android:textSize="23dp"
+        tools:ignore="ExtraText" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_below="@+id/text7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="19dp"
+        android:background="@color/yellow"
+        android:text="And off course we gonna be happy to see you there"
+        android:textColor="@color/blue"
+        android:textSize="23dp"
+        tools:ignore="ExtraText" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_below="@+id/text9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="111dp"
+        android:text="Address:baakline_alchouf_beside the municipality"
+        android:textSize="23dp"
+        tools:ignore="ExtraText" />
+</RelativeLayout>
